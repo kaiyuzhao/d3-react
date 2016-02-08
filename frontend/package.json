@@ -1,0 +1,35 @@
+{
+  "name": "githood",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dato-dev/githood.git"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint src"
+  },
+  "author": "Zach Nation",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "babel-core": "^5.4.7",
+    "babel-eslint": "^3.1.9",
+    "babel-loader": "^5.1.2",
+    "chart.js": "^1.0.2",
+    "classnames": "^2.1.3",
+    "color": "^0.10.1",
+    "d3": "^3.5.6",
+    "eslint-plugin-react": "^2.3.0",
+    "json-loader": "^0.5.2",
+    "react": "^0.13.3",
+    "react-chartjs": "^0.6.0",
+    "react-hot-loader": "^1.2.7",
+    "react-select": "^0.5.5",
+    "webpack": "^1.9.6",
+    "webpack-dev-server": "^1.8.2",
+    "whatwg-fetch": "^0.9.0"
+  }
+}
